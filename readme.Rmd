@@ -16,17 +16,17 @@ Para procesar electrónicamente estos ficheros requerimos que cumplan con alguno
 #
 * Creando nuestro entorno
 ```{r}
-source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_0.R')
+source('~/../pdf_presu_inicia_0.R')
 ```
 
 * Descarga el archivo PDF
 ```{r}
-source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_1.R')
+source('~/../pdf_presu_inicia_1.R')
 ```
 
 * Lectura de pagina seleccionada
 ```{r}
-source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_2.R')
+source('~/../pdf_presu_inicia_2.R')
 ```
 
 
