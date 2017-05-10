@@ -46,5 +46,6 @@ En caso de que quisieramos realizar proyecciones, los necesitaríamos en formato
 ## Entonro operativo: 
 ### Equipo: MacBook 
 ###Sistema Operativo: OS Sierra, 10.2.4 
-### Entorno R STUDIO: H3 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
+### Entorno R STUDIO: 
+####R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
 ### Platform: x86_64-apple-darwin13.4.0 (64-bit)
