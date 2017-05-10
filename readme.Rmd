@@ -14,10 +14,20 @@ Es decir, solo permiten ser leidos, contrario a lo que proponen los nuevos estan
 
 Para procesar electrónicamente estos ficheros requerimos que cumplan con algunos de los formatos estándar:  
 #
-* Separado por comas (CSV), 
-* Hoja electrónica Excel (XLS)
-* De texto plano (TXT).
-* Datos Abiertos (ODS).  
+* Creando nuestro entorno
+```{r}
+source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_0.R')
+```
+
+* Descarga el archivo PDF
+```{r}
+source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_1.R')
+```
+
+* Lectura de pagina seleccionada
+```{r}
+source('~/Documents/Programacion/r programming/Scrap HTML/CienciaDatos/pdf_presu_inicia_2.R')
+```
 
 
 ### Ejemplos:
