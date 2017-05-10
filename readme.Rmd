@@ -1,0 +1,40 @@
+---
+#Titulo: Leyendo PDF
+### Autor: Osvaldo Larancuent
+### Empresa: O. Larancuent Consulting, SRL
+### Email: osvaldo@olc.do
+### Licencia: MIT 
+### Fecha: 5/9/2017
+---
+##  Introducción 
+
+Tradicionalmente las comunidades tecnicas y profesionales dan seguimiento a temas que competen a su accionar.  Los economistas o agentes económicos, pendientes de las variables micro y macroeconomicas; los medicos a indicadores de salud; la justicia, los periodistas, etc.  Muchos de estos documentos, archivos o ficheros electrónicos estan disponibles en la WEB, en formato PDF.  
+
+Es decir, solo permiten ser leidos, contrario a lo que proponen los nuevos estandares de <a href="http://www.gob.do/index.php/politicas/2014-12-16-20-56-34/politicas-para-el-buen-gobierno/gobierno-y-datos-abiertos">gobierno abierto</a> que tanto se comentan.
+
+Para procesar electrónicamente estos ficheros requerimos que cumplan con algunos de los formatos estándar:  
+#
+* Separado por comas (CSV), 
+* Hoja electrónica Excel (XLS)
+* De texto plano (TXT).
+* Datos Abiertos (ODS).  
+
+
+### Ejemplos:
+
+#### Ejecución Presupuestaria del mes 2017.
+El portal de la Dirección General de Presupuesto tiene publicada la ejecución presupuestaria del primer trimestre (enero-marzo) del año 2017.  Sólo aparece el documento en formato de lectura humana (PDF) en la dirección web: http://www.digepres.gob.do/wp-content/uploads/2017/04/Informe-primer-trimestre.pdf.  
+#
+En caso de que quisieramos realizar proyecciones, los necesitaríamos en formato Excel, lo que realizaremos con el siguiente procedimiento:
+
+* Descarguemos el archivo a nuestro equipo.
+* Transformemos el archivo PDF a Texto (pues combina palabras y númerales).
+* Localicemos las páginas donde están ubicadas las informaciones necesitadas.
+* Extraigamos estas informaciones creando un archivo de texto con valores separados por comas.
+* Los datos deben ser comparados visualmente para cualquier ajuste en caso de que la data esté inconsistente, o fuera de su tabulación correcta.
+
+## Entonro operativo: 
+### Equipo: MacBook 
+###Sistema Operativo: OS Sierra, 10.2.4 
+### Entorno R STUDIO: H3 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
+### Platform: x86_64-apple-darwin13.4.0 (64-bit)
