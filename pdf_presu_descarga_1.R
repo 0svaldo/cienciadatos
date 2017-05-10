@@ -10,8 +10,10 @@ if (!file.exists(miDataDir)) {
      dir.create(miDataDir)
 }
 
+print(paste0("Descargando archivo: ",miUrlLectura,".... cargada"))
 #Descarga archivo de datos 
 download.file(miUrlLectura, destfile=miFicheroPdf, method=miMetodo)
+print("Descarga exitosa.... cargada")
 
 #Lista el contenido del directorio
 miDirContenido <- list.files("./data")
