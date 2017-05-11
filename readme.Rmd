@@ -1,0 +1,53 @@
+---
+#Titulo: Leyendo PDF
+### Autor: Osvaldo Larancuent
+### Empresa: O. Larancuent Consulting, SRL
+### Email: osvaldo@olc.do
+### Licencia: MIT 
+### Fecha: 5/9/2017
+##### Repositorio Github: [Repositorio de Osvaldo][1]
+[1]:https://github.com/0svaldo/cienciadatos
+---
+##  Introducción 
+
+Tradicionalmente las comunidades profesionales y técnicas en su proceso de investigación, documentación, validación y/o seguimiento a temas que competen a su accionar requieren obtener datos estadísticos de tablas que solo están disponibles en textos o documentos no estructurados para ser procesados a través de métodos informáticos.  
+
+Todos necesitamos información para documentarnos.  Tomemos por caso de ejemplo del seguimiento o monitorización del cumplimiento de políticas públicas, sea esta tarea realizada por hacedores o investigadores de las economía, sociólogía.  De esta forma pueden detectar variaciones en comparación con períodos anteriores u otros tipos de referencias en ámbitos que abarcan la salud; la justicia, los periodistas, entre otros.  
+
+Escuchamos con frecuencia que la información existe, el tema es saber dónde buscarla.  Y otra situación es con qué agilidad podríamos procesarla pues reitero, no está siempre estructurada en forma de datos.  Muchos de estos documentos, archivos o ficheros electrónicos están disponibles en la WEB, en formato PDF, Word u otros; aparentemente no muy útiles desde el punto de vista informático.  
+
+Por otro lado, entre las Tecnologías Emergentes de la Información aparace BigData o los datos masivos disponibles en la web, que hace de la Ciencia de Datos merecedora de seguimiento y entusiasmo.  
+
+Contamos con 3.5 mil millones (millardos) de conexiones a la web.  No diremos que sean personas, sino conexiones de dispositivos, aunque la mayoría de dispositivos personales como lo es un computador o un móvil inteligente (dispositivos móviles que se conectan a la web y tienen capacidad de ejecutar instrucciones, que abarcan celulares, tabletas, cámaras de vídeo, tocamúsica).  Esto es el 50% de la población mundial.  Esto logrado en unos 25 años (desde 1992).  Sin embargo se estima que habrán más 20+ (¿50?) millardos de conexiones para el año 2020.
+
+Sin duda pocos entienden el impacto de forma práctica, pero tenemos la percepción de que existe mucha información disponble y habrá aún más cuando todos los dispositivos *inteligentes* que conforman la denominada **Internet de las Cosas (IoT, del inglés)**.  De forma cada vez más global, la ONU y organismos multilaterales abogan por la transparencia en las informaciones; apoyados en estándares de Datos Abiertos desde el punto de vista informático, para que las instituciones públicas los provean para mejorar la colaboración de la sociedad en el seguimiento a las decisiones públicas. [El lector puede visitar informacion publicada en la pagina web de la Oficina Presidencial de Tecnología de la Informacion y Comunicaciones ([OPTIC][2])].  
+[2]:http://www.gob.do/index.php/politicas/2014-12-16-20-56-34/politicas-para-el-buen-gobierno/gobierno-y-datos-abiertos".
+
+
+### Ejemplo: Ejecución Presupuestaria del mes 2017, Gobierno República Dominicana.
+El portal de la Dirección General de Presupuesto tiene publicada la ejecución presupuestaria del primer trimestre (enero-marzo) del año 2017.   Sólo aparece el documento en formato de lectura humana (PDF) en la dirección web [Informe Primer Trimestre 2017][3].
+
+   [3]: http://www.digepres.gob.do/wp-content/uploads/2017/04/Informe-primer-trimestre.pdf
+
+En caso de que quisieramos realizar proyecciones, los necesitaríamos en formato **Excel**, lo que realizaremos con el siguiente procedimiento:
+
+* Descarguemos el archivo a nuestro equipo.
+* Transformemos el archivo **PDF a Texto** (pues combina palabras y númerales).
+* Localicemos las páginas donde están ubicadas las informaciones necesitadas.
+* Extraigamos estas informaciones creando un archivo de texto con valores separados por comas.
+* Los datos deben ser comparados visualmente para cualquier ajuste en caso de que la data esté inconsistente, o fuera de su tabulación correcta.
+
+Este ejemplo no espera más que ilustrar las capacidades actuales para reproducir esta información, aunque podría ser más ágil y fácil si estuvieran los datos disponibles.
+
+Digamos que el informe de la pagina 5 que se presenta como sigue:
+
+Luego de ejecutar estas rutinas programáticas en lenguaje R que compartimos en la página, tenemos la capacidad de generar uno incluyendo en las barras la información del año 2016:
+
+
+Disfrútenlo.
+
+## Entorno operativo: 
+##### Equipo: MacBook 
+#####Sistema Operativo: OS Sierra, 10.2.4 
+##### Entorno R STUDIO: H3 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
+##### Platform: x86_64-apple-darwin13.4.0 (64-bit)
