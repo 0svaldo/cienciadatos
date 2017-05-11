@@ -15,17 +15,15 @@ print("Libreria pdftools .... cargada")
 library("stringr",logical.return = TRUE)
 print("Libreria stringr .... cargada")
 
+
 #install.packages("dplyr")
 library("dplyr",logical.return = TRUE)
+
+#install.packages("tidyr")
+library("tidyr",logical.return = TRUE)
 
 #install.packages("ggplot2")
 library("ggplot2",logical.return = TRUE)
-
-#install.packages("ggrepel")
-library(ggrepel)
-
-#install.packages("dplyr")
-library("dplyr",logical.return = TRUE)
 
 #2. Definicion de Variables 
 miUrlLectura <- "http://www.digepres.gob.do/wp-content/uploads/2017/04/Informe-primer-trimestre.pdf"

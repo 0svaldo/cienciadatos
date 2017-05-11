@@ -1,14 +1,15 @@
 ---
-#Titulo: Leyendo PDF
-### Autor: Osvaldo Larancuent
-### Empresa: O. Larancuent Consulting, SRL
-### Email: osvaldo@olc.do
-### Licencia: MIT 
-### Fecha: 5/9/2017
-##### Repositorio Github: [Repositorio de Osvaldo][1]
-[1]:https://github.com/0svaldo/cienciadatos
+title: "Ejercicio BigData basado en PDF"
+author: "Osvaldo Larancuent"
+date: "5/11/2017"
+output: html_document
 ---
-##  Introducción 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###  Introducción 
 
 Tradicionalmente las comunidades profesionales y técnicas en su proceso de investigación, documentación, validación y/o seguimiento a temas que competen a su accionar requieren obtener datos estadísticos de tablas que solo están disponibles en textos o documentos no estructurados para ser procesados a través de métodos informáticos.  
 
@@ -39,17 +40,23 @@ En caso de que quisieramos realizar proyecciones, los necesitaríamos en formato
 
 Este ejemplo no espera más que ilustrar las capacidades actuales para reproducir esta información, aunque podría ser más ágil y fácil si estuvieran los datos disponibles.
 
-Digamos que el informe de la pagina 5 que se presenta como sigue:
-![Comparaci&oacute;n de Resultados I Trimestre 2017 vs 2016]
-(https://github.com/0svaldo/cienciadatos/blob/master/PresuPrimerTrimestre2017.pdf)
+Tomemos la imagen del informe de la pagina 4 que se presenta a continuación:
+![image](Itrim.png)
+
+Es la representación de los ingresos fiscales del gobierno dominicano correspondientes al primer trimestre 2017.  En la misma página se presenta una tabla de valores del 2016, variación absulta y relativa; entre otras.  
+
+A los fines de ilustrar las capacidades de este lenguaje de programaci´ón R, procederemos a leer el documento, a generar una tabla, y crear un un gráfico que incluya lo correspondiente al 2016.
 
 Luego de ejecutar estas rutinas programáticas en lenguaje R que compartimos en la página, tenemos la capacidad de generar uno incluyendo en las barras la información del año 2016:
 
+### Grafico de Barras comparando ingresos primer trimestre 2017 vs 2016
+
+![image](nuevoItrim2017.png)
 
 Disfrútenlo.
 
-## Entorno operativo: 
+#### Entorno operativo: 
 ##### Equipo: MacBook 
-#####Sistema Operativo: OS Sierra, 10.2.4 
-##### Entorno R STUDIO: H3 R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
+##### Sistema Operativo: OS Sierra, 10.2.4 
+##### Entorno R STUDIO: R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree" 
 ##### Platform: x86_64-apple-darwin13.4.0 (64-bit)

@@ -61,12 +61,12 @@ miGr<-rbind(g1,g2,g3,g4,g5,g6,g7)
 miGr$Cuenta<-factor(miGr$Cuenta,levels = miGr$Cuenta[order(desc(miGr$Total))])
 
 #Grafiquemos los 
-ggplot(data=miGr, 
-       aes(x=Cuenta, y=Total, fill = Ano)) +
+Itrim2017<-ggplot(data=miGr, 
+                  aes(x=Cuenta, y=Total, fill = Ano)) +
      geom_bar(colour="black", stat="identity", position=position_dodge()) +
      xlab("Cuenta de Ingresos") + 
      ylab("Millones RD$") + 
      ggtitle("Comparación de Resultados I Trimestre 2017 vs 2016") + 
      scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
-     geom_text(aes(label=Total), position=position_dodge(width=0.9), vjust=-0.25) +
+     geom_text(aes(label=Total), position=position_dodge(width=0.9),angle=85, vjust=0.55, size=2.5) +
      theme_bw()

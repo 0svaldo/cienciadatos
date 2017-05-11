@@ -17,7 +17,6 @@ instr <- function(str1,str2,startpos=1,n=1){
      return(sum(nchar(aa[1:n])) + startpos+(n-1)*nchar(str2) )
 }
 
-
 #Definir pagina a leer
 miPaginaDatos<-5
 miEncPag<-9
