@@ -40,6 +40,8 @@ En caso de que quisieramos realizar proyecciones, los necesitaríamos en formato
 Este ejemplo no espera más que ilustrar las capacidades actuales para reproducir esta información, aunque podría ser más ágil y fácil si estuvieran los datos disponibles.
 
 Digamos que el informe de la pagina 5 que se presenta como sigue:
+![Comparaci&oacute;n de Resultados I Trimestre 2017 vs 2016]
+(https://github.com/0svaldo/cienciadatos/blob/master/PresuPrimerTrimestre2017.pdf)
 
 Luego de ejecutar estas rutinas programáticas en lenguaje R que compartimos en la página, tenemos la capacidad de generar uno incluyendo en las barras la información del año 2016:
 
